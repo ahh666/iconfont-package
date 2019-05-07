@@ -1,4 +1,4 @@
-# vuedemo-maoyan
+# iconfont-package
 
 > 基于阿里巴巴图标库，手动封装iconfont组件(三种引用方式的封装)
 > - `src/ui` 下是封装的组件
