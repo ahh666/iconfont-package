@@ -1,25 +1,20 @@
 <template>
   <div>
-    <span class="iconfont" v-html="iconTag"></span>
+    <span class="iconfont" v-html="name"></span>
     <slot></slot>
   </div>
 </template>
    
 <script>
 export default {
-  name: "iconUnicode",
+  name: 'iconUnicode',
   props: {
-    iconType: {
+    name: {
       type: String,
       required: true
     }
-  },
-  computed: {
-    iconTag() {
-      return `&#${this.iconType};`;
-    }
   }
-};
+}
 </script>
 
 <style scoped>

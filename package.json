@@ -1,5 +1,5 @@
 {
-  "name": "iconfont package",
+  "name": "iconfont",
   "version": "1.0.0",
   "description": "基于阿里巴巴图标库，手动封装iconfont组件(三种引用方式的封装)",
   "author": "艾欢欢 <565703006@qq.com>",

@@ -12,14 +12,14 @@ import "../assets/iconfont/iconfont.js";
 export default {
   name: "iconSymbol",
   props: {
-    iconClass: {
+    name: {
       type: String,
       required: true
     }
   },
   computed: {
     iconTag() {
-      return `#icon-${this.iconClass}`;
+      return `#icon-${this.name}`;
     }
   }
 };

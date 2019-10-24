@@ -10,14 +10,14 @@ import "../assets/iconfont/iconfont.css";
 export default {
   name: "iconFontClass",
   props: {
-    iconClass: {
+    name: {
       type: String,
       required: true
     }
   },
   computed: {
     iconTag() {
-      return `icon-${this.iconClass}`;
+      return `icon-${this.name}`;
     }
   }
 };
